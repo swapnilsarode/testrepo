@@ -1,0 +1,8 @@
+HTTP signatures provide a mechanism to digitally sign an HTTP message using either symmetric or asymmetric keys, such that it helps to both verify the identity of the sender and, verify that the message was not tampered during the transit.
+The HTTP Signature specification [1] provides standardized mechanisms on how the client can include the digital signatures in the HTTP-based requests such that, in addition to ensuring end-to-end message integrity, it also authenticates the clients using the same approach instead of using multiple round trips. Also it eliminates the necessity to use shared secrets.
+This specification presents two mechanisms to achieve following distinct purposes.4d7e8a4161e1345e8b15fad5aa035e7b
+Authenticity: only the clients that has the private key can send valid HTTP messages to the server
+Message integrity: HTTP requests are protected from a ‘man in the middle attack’ where the messages can get altered.
+Purpose 1: For ensuring message integrity 4d7e8a4161e6274e8b15fad5aa035e7b
+The "Signature" scheme which is intended primarily to allow a sender to assert the contents of the message sent are correct and have not been altered during transmission or storage in a way that alters the meaning expressed in the original message as signed. Any party reading the message (the verifier) may independently confirm the validity of the message signature. This scheme is agnostic to the client/server direction and can be used to verify the contents of either HTTP requests, HTTP responses, or both.
+Sample request on how the client 4d7e8a5171e6274e8b15fad5aa035e7b can include Signature scheme with the request to enforce message integrity when calling an API.
