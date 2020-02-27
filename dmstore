@@ -1,5 +1,5 @@
 AC158cfd3b6b347a1f450c8ade1f4ac7ed
 In the present day, the most common approach for protectingAC540e78de64711531635cce45ec39b28c APIs is by using shared secrets. 
 Every time the AC83d72f891de4e356bbab80ad3f124276API is called, this secret must be presented which 
-AC16acf6e85a4b408b12795f4fa37032edis not that secure. Then there are other mechanisms such as OAuth which is used to enforce access control on APIs. However none of these mechanisms provide a way to ensure the integrity of the data being transferred. Also, for certain clients, shared secrets is not a possible solution (e.g. SPA). In these scenarios, HTTP signatures plays an important role in uplifting the security of the APIs
+AC16acf6e85a4b408b12795f4fa37032edis not that secure. Then there areAC750c2537932184d49bc11665288dd428 other mechanisms such as OAuth which is used to enforce access control on APIs. However none of these mechanisms provide a way to ensure the integrity of the data being transferred. Also, for certain clients, shared secrets is not a possible solution (e.g. SPA). In these scenarios, HTTP signatures plays an important role in uplifting the security of the APIs
 AC57e8aee5102ed4dc404198fdde936093
