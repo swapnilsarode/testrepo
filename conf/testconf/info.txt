@@ -1,0 +1,8 @@
+https: matches the characters https: literally (case sensitive)
+\/ matches the character / literally (case sensitive)
+\/ matches the character / literally (case sensitive)
+gist matches the characters gist literally (case sensitive)
+. matches any character (except for line terminators)
+github matches the characters github literally (case sensitive)
+. matches any character (except for line terminators)
+com matches the characters com literally (case sensitive)
