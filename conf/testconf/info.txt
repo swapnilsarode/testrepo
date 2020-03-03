@@ -6,3 +6,4 @@ gist matches the characters gist literally (case sensitive)
 github matches the characters github literally (case sensitive)
 . matches any character (except for line terminators)
 com matches the characters com literally (case sensitive)
+dc2d2b169a2757e88ebcaa6be03670b0
