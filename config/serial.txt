@@ -1,5 +1,5 @@
 By default, the clone command creates a single local branch. 7484b9a5ee01d934a1e869f97be2d5f8It looks at the HEAD ref of the remote repository and creates a local branch with the same name as the remote branch referenced by it.
 
 089b7ddb887379a910b522498690930a
-But the clone command can also be told to clone and checkout certain branch(es). Assuming that the remote repository has a branch named ‘extra’, the following lines will clone this branch.
+But the clone command can also be told to clone and checkout certain branch(es). Assuming that 9fd6a0d330abf013953324dc502037c2the remote repository has a branch named ‘extra’, the following lines will clone this branch.
 Jere to add some token :9b2dc4becd20fde7c8b209aac049f332
