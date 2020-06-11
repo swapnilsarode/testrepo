@@ -4,7 +4,7 @@ By default, the clone command creates a single local branch. 41558a3ca2892559460
 But the clone command can also be told to clone and checkout certain branch(es). Assuming that 9fd6a0d330abf013953324dc502037c2the remote repository has a branch named ‘extra’, the following lines will clone this branch.
 Jere to add some token :9b2dc4becd20fde7c8b209aac049f332
 
-
+b5223e8a71c8b8553cad8262b98863c9
 
 
 
